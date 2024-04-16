@@ -1,0 +1,63 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "realtime-quiz-app-1aed7",
+          "appId": "1:73201833829:android:c42509c67520167284738c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "realtime-quiz-app-1aed7",
+          "appId": "1:73201833829:ios:31f646b6acf3e24484738c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "realtime-quiz-app-1aed7",
+          "configurations": {
+            "android": "1:73201833829:android:c42509c67520167284738c",
+            "ios": "1:73201833829:ios:31f646b6acf3e24484738c",
+            "web": "1:73201833829:web:7fd8de04995d6bdc84738c"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5050
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "73201833829",
+    "firebase_url": "https://realtime-quiz-app-1aed7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "realtime-quiz-app-1aed7",
+    "storage_bucket": "realtime-quiz-app-1aed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73201833829:android:c42509c67520167284738c",
+        "android_client_info": {
+          "package_name": "com.example.realtime_quiz_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_lYK__zO73b8s8iyFToYkTAcDYBi9-ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
